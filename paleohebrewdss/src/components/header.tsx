@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Header() {
     return (
-        <header className="z-10 relative flex flex-col items-center justify-center gap-4 text-3xl bg-black pb-5">
+        <div className="z-10 relative flex flex-col items-center justify-center gap-4 text-3xl bg-black pb-5">
         <h1 className="z-10 text-gray-100">Paleo-Hebrew Dead Sea Scrolls</h1>
         <div className="flex gap-4">
           <Link href="/">
@@ -16,6 +16,6 @@ export default function Header() {
             <Button>Credits</Button>
           </a>
         </div>
-      </header>
+      </div>
     );
 }
