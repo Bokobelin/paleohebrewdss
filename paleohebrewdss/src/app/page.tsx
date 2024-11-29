@@ -1,5 +1,4 @@
 import Header from "@/components/header";
-import { Button } from "@/components/ui/button";
 
 export default function HomePage() {
   return (
@@ -24,20 +23,20 @@ export default function HomePage() {
         <div className="relative z-10 p-8">
           <h1 className="text-2xl">Welcome</h1>
           <p className="w-3/4 mx-auto">
-            This website aims at sharing the palaeographic work achieved on the Paleo-Hebrew texts from Qumran. This work was carried out during the EAJS-Lab workshop entitled "Research Approaches in Hebrew Bible Manuscript Studies », which took place in Aix-en-Provence in June of 2016.
+            This website aims at sharing the palaeographic work achieved on the Paleo-Hebrew texts from Qumran. This work was carried out during the EAJS-Lab workshop entitled &quot;Research Approaches in Hebrew Bible Manuscript Studies&quot;, which took place in Aix-en-Provence in June of 2016.
             <br />
             <br />
-            This website provides an access to the article, the palaeographic tables produced using LaTeX, a digital access to the images of the hebrew letters and paleo-hebrew fonts.
+            This website provides access to the article, the palaeographic tables produced using LaTeX, a digital access to the images of the Hebrew letters and Paleo-Hebrew fonts.
             <br />
             <br />
-            This project, coordinated by Antony Perrot and Matthieu Richelle, could not have been accomplished without the support of the "Orient et Méditerannée" Laboratory (CNRS-UMR8167) and The Leon Levy Dead Sea Scrolls Digital Library of the Israel Antiquities Authority.
+            This project, coordinated by Antony Perrot and Matthieu Richelle, could not have been accomplished without the support of the &quot;Orient et Méditerannée&quot; Laboratory (CNRS-UMR8167) and The Leon Levy Dead Sea Scrolls Digital Library of the Israel Antiquities Authority.
           </p>
         </div>
       </main>
 
       {/* Footer */}
       <footer className="flex gap-6 flex-wrap items-center justify-center p-4">
-        <p className="flex items-center gap-2" rel="noopener noreferrer">
+        <p className="flex items-center gap-2">
           Copyright (C) 2024 Matthieu Richelle
         </p>
       </footer>

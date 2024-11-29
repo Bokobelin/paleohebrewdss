@@ -13,23 +13,41 @@ export default function Tables() {
                             src="/pdf.png"
                             width={100}
                             height={100}
-                            alt=""
-                            style={{ objectFit: "cover", width: "100px", height: "auto" }}
-                            className="rounded-lg" />
-                            <a href="/Auto-contrast_Paleo-Hebrew-Script_DSS.pdf" className="underline" target="_blank">General view of the Paleo-Hebrew Dead Sea Scrolls</a>[PDF ~6.3MB]
+                            alt="PDF Icon"
+                            className="rounded-lg object-cover"
+                        />
+                        <a
+                            href="/Auto-contrast_Paleo-Hebrew-Script_DSS.pdf"
+                            className="underline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            General view of the Paleo-Hebrew Dead Sea Scrolls
+                        </a>
+                        [PDF ~6.3MB]
                     </div>
                     <div className="flex flex-row items-center justify-center gap-4">
                         <Image
                             src="/pdf.png"
                             width={100}
                             height={100}
-                            alt=""
-                            style={{ objectFit: "cover", width: "100px", height: "auto" }}
-                            className="rounded-lg" />
-                            <a href="/Courbes_divine-names-qumran_table.pdf" className="underline" target="_blank">Divine names table</a>[PDF ~1.6MB]
+                            alt="PDF Icon"
+                            className="rounded-lg object-cover"
+                        />
+                        <a
+                            href="/Courbes_divine-names-qumran_table.pdf"
+                            className="underline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Divine names table
+                        </a>
+                        [PDF ~1.6MB]
                     </div>
                 </div>
-            <h4 className="text-lg pt-8">Please use the following credit line when using these tables: Table made by Antony Perrot.</h4>
+                <h4 className="text-lg pt-8">
+                    Please use the following credit line when using these tables: Table made by Antony Perrot.
+                </h4>
             </div>
         </div>
     );

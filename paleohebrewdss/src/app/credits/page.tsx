@@ -13,10 +13,10 @@ export default function Credits() {
                 {/* First Row */}
                 <div className="grid grid-cols-[auto_1fr] items-center gap-4">
                     <Image
+                        alt="IAA"
                         src="/iaa.png"
                         width={300}
                         height={200}
-                        alt=""
                         className="self-center rounded-lg"
                         style={{ objectFit: "contain", maxWidth: "100%", height: "auto" }}
                     />
@@ -28,21 +28,21 @@ export default function Credits() {
                 {/* Second Row */}
                 <div className="grid grid-cols-[auto_1fr] items-center gap-4">
                     <Image
+                        alt="O&M"
                         src="/o&m.png"
                         width={300}
                         height={200}
-                        alt=""
                         className="self-center rounded-lg"
                         style={{ objectFit: "contain", maxWidth: "100%", height: "auto" }}
                     />
                     <p>
-                        The Laboratory "<a href="http://www.orient-mediterranee.com/spip.php?rubrique101" className="underline">Orient et Mediterranean</a>" (CNRS-UMR 8167) gave us financial support.
+                        The Laboratory &quot;<a href="http://www.orient-mediterranee.com/spip.php?rubrique101" className="underline">Orient et Mediterranean</a>&quot; (CNRS-UMR 8167) gave us financial support.
                     </p>
                 </div>
             </div>
 
             <h3 className="text-2xl">Affiliations</h3>
-            <h4 className="text-lg">We would like to thank the following institutions for their support: Ecole Pratique des Hautes Etudes, PSL Université, UMR 7192 "Proche-Orient - Caucase" and the Deutsche Forschungsgemeinschaft (DIP grant: BE 5916/1-1. KR 1473/8-1)</h4>
+            <h4 className="text-lg">We would like to thank the following institutions for their support: Ecole Pratique des Hautes Etudes, PSL Université, UMR 7192 &quot;Proche-Orient - Caucase&quot; and the Deutsche Forschungsgemeinschaft (DIP grant: BE 5916/1-1. KR 1473/8-1)</h4>
 
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 items-center justify-center">
                 <a href="https://www.ephe.fr/">
