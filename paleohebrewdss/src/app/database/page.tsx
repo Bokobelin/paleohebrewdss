@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Database() {
   return (
-    <div className="bg-black min-h-screen">
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-full p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-black text-gray-100">
+    <div className="bg-cyan-950 min-h-screen">
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-full p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-cyan-950 text-gray-100">
         <Header />
         <h1 className="text-3xl">Database</h1>
         <div className="flex flex-row gap-14 justify-center items-center text-center">
