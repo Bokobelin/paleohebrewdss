@@ -18,7 +18,7 @@ export default function Database() {
                 style={{ objectFit: "cover", width: "150px" }}
                 className="rounded-lg"
               />
-              <h3 className="text-2xl text-center">Paper</h3>
+              <h3 className="text-xl text-center">Paper</h3>
             </div>
           </a>
           <a href="/database/tables" className="grid gap-8 items-center w-full justify-items-center">
@@ -31,7 +31,20 @@ export default function Database() {
                 style={{ objectFit: "cover", width: "150px" }}
                 className="rounded-lg"
               />
-              <h3 className="text-2xl text-center">Tables</h3>
+              <h3 className="text-xl text-center">Tables</h3>
+            </div>
+          </a>
+          <a href="/database/letters-by-scroll" className="grid gap-8 items-center w-full justify-items-center">
+            <div>
+              <Image
+                src="/lbs.png"
+                width={150}
+                height={150}
+                alt="Tables"
+                style={{ objectFit: "cover", width: "150px" }}
+                className="rounded-lg"
+              />
+              <h3 className="text-xl text-center">Letters by scroll</h3>
             </div>
           </a>
         </div>
