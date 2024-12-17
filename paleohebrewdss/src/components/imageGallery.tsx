@@ -19,7 +19,9 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ folder }) => {
           key={index}
           src={`${imagesFolder}/${image}`}
           alt={`Image ${index + 1}`}
-          className="w-50 h-50 object-cover rounded shadow"
+          width="160"
+          height="50"
+          className="object-cover rounded shadow"
         />
       ))}
     </div>
