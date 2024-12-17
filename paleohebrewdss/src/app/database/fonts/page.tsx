@@ -1,6 +1,4 @@
 import Header from "@/components/header";
-import ImageGallery from "@/components/imageGallery";
-import Link from "next/link";
 
 export default function LettersByScroll() {
   return (
@@ -9,7 +7,7 @@ export default function LettersByScroll() {
         <Header />
         <div className="flex flex-col w-full gap-4">
             <h1 className="text-3xl text-center">Palaeo-Hebrew Fonts</h1>
-            <p>Please use the following credit line: "Font designed by Antony Perrot"</p>
+            <p>Please use the following credit line: &quot;Font designed by Antony Perrot&quot;</p>
         </div>
       </div>
     </div>
