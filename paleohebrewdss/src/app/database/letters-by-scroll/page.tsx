@@ -25,7 +25,7 @@ export default function LettersByScroll() {
             <Link href="/database/letters-by-scroll/6q2"><Button variant="link" className="text-gray-100 hover:text-gray-500">6Q2 (6QpaleoLev)</Button></Link>
             <Link href="/database/letters-by-scroll/11q1"><Button variant="link" className="text-gray-100 hover:text-gray-500">11Q1 (11QpaleoLeva)</Button></Link>
             <Link href="/database/letters-by-scroll/11q22"><Button variant="link" className="text-gray-100 hover:text-gray-500">11Q22 (11QpalUnid)</Button></Link>
-            <Link href="/database/letters-by-scroll/Mas1o"><Button variant="link" className="text-gray-100 hover:text-gray-500">Mas1o (Mas pap paleoText of Samaritan Origin)</Button></Link>
+            <Link href="/database/letters-by-scroll/mas1o"><Button variant="link" className="text-gray-100 hover:text-gray-500">Mas1o (Mas pap paleoText of Samaritan Origin)</Button></Link>
             <Link href="/database/letters-by-scroll/divine"><Button variant="link" className="text-gray-100 hover:text-gray-500">Divine Names</Button></Link>
           </div>
         </div>
