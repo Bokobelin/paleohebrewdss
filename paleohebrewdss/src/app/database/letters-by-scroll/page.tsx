@@ -9,7 +9,7 @@ export default function LettersByScroll() {
         <Header />
         <div className="flex flex-col gap-4">
             <h1 className="text-3xl text-center">Letters by Scroll</h1>
-            <div className="flex flex-col mt-6 gap-4 items-center text-center gray-500">
+            <div className="flex flex-col mt-6 gap-4 items-center text-center gray-100">
             <Link href="/database/letters-by-scroll/1q3"><Button variant="link" className="hover:text-gray-500">1Q3 (1QpaleoLev-Num)</Button></Link>
             <Link href="/database/letters-by-scroll/2q5"><Button variant="link" className="hover:text-gray-500">2Q5 (2QpaleoLev)</Button></Link>
             <Link href="/database/letters-by-scroll/4q11"><Button variant="link" className="hover:text-gray-500">4Q11 (4QpaleoGen-Exodl)</Button></Link>
