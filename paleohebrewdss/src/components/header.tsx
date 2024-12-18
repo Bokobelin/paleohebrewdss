@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 
 export default function Header() {
   return (
-    <div className="z-10 relative flex flex-col items-center justify-center gap-4 text-3xl bg-cyan-950 pb-5">
-      <h1 className="z-10 text-gray-100">Paleo-Hebrew Dead Sea Scrolls</h1>
-      <div className="flex gap-4">
+    <div className="z-10 relative flex flex-col w-full items-center justify-center gap-4 px-4 py-6 text-2xl bg-cyan-950 sm:text-3xl sm:mt-20 lg:my-6">
+      <h1 className="z-10 text-center text-gray-100">
+        Paleo-Hebrew Dead Sea Scrolls
+      </h1>
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
         <Link href="/" passHref>
           <Button className="text-gray-300">
             Home
@@ -13,7 +15,7 @@ export default function Header() {
         </Link>
         <Link href="/database" passHref>
           <Button className="text-gray-300">
-        Database
+            Database
           </Button>
         </Link>
         <Link href="/credits" passHref>

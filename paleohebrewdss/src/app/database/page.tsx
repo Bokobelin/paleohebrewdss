@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Database() {
   return (
     <div className="bg-cyan-950 min-h-screen">
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-full p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-cyan-950 text-gray-100">
+      <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-full px-8 sm:px-8 sm:py-20 gap-8 sm:gap-16 font-[family-name:var(--font-geist-sans)] text-gray-100">
         <Header />
-        <h1 className="text-3xl">Database</h1>
-        <div className="flex flex-row gap-14 justify-center items-center text-center">
-          <a href="/database/paper" className="grid gap-8 items-center w-full justify-items-center">
+        <h1 className="text-3xl text-center">Database</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-14 justify-center items-center text-center w-full">
+          <a href="/database/paper" className="grid gap-4 items-center justify-items-center">
             <div>
               <Image
                 src="/paper.png"
@@ -21,7 +21,7 @@ export default function Database() {
               <h3 className="text-xl text-center">Paper</h3>
             </div>
           </a>
-          <a href="/database/tables" className="grid gap-8 items-center w-full justify-items-center">
+          <a href="/database/tables" className="grid gap-4 items-center justify-items-center">
             <div>
               <Image
                 src="/tables.png"
@@ -34,26 +34,26 @@ export default function Database() {
               <h3 className="text-xl text-center">Tables</h3>
             </div>
           </a>
-          <a href="/database/letters-by-scroll" className="grid gap-8 items-center w-full justify-items-center">
+          <a href="/database/letters-by-scroll" className="grid gap-4 items-center justify-items-center">
             <div>
               <Image
                 src="/lbs.png"
                 width={150}
                 height={150}
-                alt="Tables"
+                alt="Letters by Scroll"
                 style={{ objectFit: "cover", width: "150px" }}
                 className="rounded-lg"
               />
-              <h3 className="text-xl text-center">Letters by scroll</h3>
+              <h3 className="text-xl text-center">Letters by Scroll</h3>
             </div>
           </a>
-          <a href="/database/fonts" className="grid gap-8 items-center w-full justify-items-center">
+          <a href="/database/fonts" className="grid gap-4 items-center justify-items-center">
             <div>
               <Image
                 src="/font.png"
                 width={150}
                 height={150}
-                alt="Tables"
+                alt="Fonts"
                 style={{ objectFit: "cover", width: "150px" }}
                 className="rounded-lg"
               />
