@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import ImageGallery from "@/components/imageGallery";
-import Link from "next/link";
 
 export default function LettersByScroll() {
   return (
