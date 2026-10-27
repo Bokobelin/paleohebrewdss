@@ -39,7 +39,7 @@ export default function LettersByScroll() {
 
             <h3 className="text-xl">Fourth Hand</h3>
             <p>
-            Images of the IAA (frag. 22):
+            Images of the IAA (frag. 24):
             </p>
             <ul className="list-disc pl-6">
                 <li><Link href="http://www.deadseascrolls.org.il/explore-the-archive/image/B-277300" className="underline">Infrared Image</Link> (via IAA)</li>

@@ -37,7 +37,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="flex gap-6 flex-wrap items-center justify-center p-4">
         <p className="flex items-center gap-2">
-          Copyright (C) 2024 Matthieu Richelle
+          Copyright (C) 2026 Matthieu Richelle
         </p>
       </footer>
     </div>

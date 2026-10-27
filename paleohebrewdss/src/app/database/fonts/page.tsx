@@ -8,6 +8,8 @@ export default function LettersByScroll() {
         <div className="flex flex-col w-full gap-4">
             <h1 className="text-3xl text-center">Palaeo-Hebrew Fonts</h1>
             <p>Please use the following credit line: &quot;Font designed by Antony Perrot&quot;</p>
+            <a href="/TwoQ5">2Q5 font</a>
+            <a href="/FourQ101">4Q101 font</a>
         </div>
       </div>
     </div>
